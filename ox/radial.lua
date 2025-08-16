@@ -1,0 +1,51 @@
+if maro.showradial == true then
+
+lib.registerRadial({
+  id = 'police_menu',
+  items = {
+    {
+      label = 'Handcuff',
+      icon = 'handcuffs',
+      onSelect = function()
+        print('Handcuffs')
+      end
+    },
+    {
+      label = 'Frisk',
+      icon = 'hand'
+    },
+    {
+      label = 'Fingerprint',
+      icon = 'fingerprint'
+    },
+    {
+      label = 'Jail',
+      icon = 'bus'
+    },
+    {
+      label = 'Search',
+      icon = 'magnifying-glass',
+      onSelect = function()
+        print('Search')
+      end
+    }
+  }
+})
+
+lib.addRadialItem({
+  id = 'police',
+  label = 'Police',
+  icon = 'shield-halved',
+  menu = 'police_menu'
+})
+
+lib.addRadialItem({
+  id = 'business_stuff',
+  label = 'Business',
+  icon = 'briefcase',
+  onSelect = function()
+    print("Business")
+  end
+})
+
+end
