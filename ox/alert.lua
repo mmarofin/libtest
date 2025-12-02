@@ -1,4 +1,4 @@
-RegisterCommand('alert', function()
+RegisterCommand(maro.commands.alert, function()
   lib.alertDialog({
     header = 'Hello there',
     content = 'General Kenobi  \n Markdown support!',
