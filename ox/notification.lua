@@ -1,4 +1,4 @@
-RegisterCommand('testnotify', function()
+RegisterCommand(maro.commands.noti, function()
 
 lib.notify({
     title = 'Notification title',
