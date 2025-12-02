@@ -22,7 +22,7 @@ lib.progressBar({
 end)
 
 
-RegisterCommand('progcircle', function()
+RegisterCommand(maro.commands.progcircle, function()
     lib.progressCircle({
     duration = 2000,
     position = 'bottom',
