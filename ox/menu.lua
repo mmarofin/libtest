@@ -42,6 +42,6 @@
 end)
 
 
-RegisterCommand('testmenu', function()
+RegisterCommand(maro.commands.menu, function()
     lib.showMenu('some_menu_id')
 end)
