@@ -57,6 +57,6 @@ RegisterNetEvent('test_event', function(args)
   lib.showContext('event_menu')
 end)
 
-RegisterCommand('testcontext', function()
+RegisterCommand('libcontext', function()
   lib.showContext('some_menu')
 end)
