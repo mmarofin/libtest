@@ -1,4 +1,4 @@
- RegisterCommand('inputdialog', function()
+ RegisterCommand(maro.commands.dialog, function()
 
 lib.inputDialog('Dialog title', {
   {type = 'input', label = 'Text input', description = 'Some input description', required = true, min = 4, max = 16},
