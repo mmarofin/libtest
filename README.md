@@ -12,18 +12,17 @@ A simple test script for [ox_lib](https://github.com/overextended/ox_lib), desig
 
 * [ox_lib](https://github.com/overextended/ox_lib)
 
-## Commands
+## Commands (configurable)
 
-* `/testnotify` → Shows a test notification using ox_lib
-* `/testcontext` → Opens a sample context menu
-* `/testmenu` → Displays an ox menu
-* `/testtextui` → Displays the ox textui
-* `/inputdialog` → Displays the input dialog
-* `/alert` → Displays the alert dialog
-* `/prog` → Displays a progressbar
-* `/progcircle` → Displays a progresscircle
-* `/inputdialog` → Displays the input dialog
-* `/skillcheck` → Displays the ox skillcheck
+* `/libnotify` → Shows a test notification using ox_lib
+* `/libcontext` → Opens a sample context menu
+* `/libmenu` → Displays an ox menu
+* `/libtextui` → Displays the ox textui
+* `/libdialog` → Displays the input dialog
+* `/libalert` → Displays the alert dialog
+* `/libprog` → Displays a progressbar
+* `/libprogcircle` → Displays a progresscircle
+* `/libskillcheck` → Displays the ox skillcheck
 
 ## Installation
 
