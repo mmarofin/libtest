@@ -1,4 +1,4 @@
-RegisterCommand('prog', function()
+RegisterCommand(maro.commands.prog, function()
   
 lib.progressBar({
     duration = 2000,
