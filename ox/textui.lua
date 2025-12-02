@@ -1,4 +1,4 @@
-RegisterCommand('testtextui', function()
+RegisterCommand(maro.commands.textui, function()
     lib.showTextUI('[E] - Fuel vehicle')
     CreateThread(function()
         while true do
